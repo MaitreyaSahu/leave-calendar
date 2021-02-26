@@ -1,0 +1,77 @@
+.box-container {
+    width: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 10px;
+    margin: 5px;
+}
+
+.ui-datepicker {
+    width: 30em;
+}
+
+.ui-datepicker table {
+    font-size: 1em;
+}
+
+.ui-widget-content {
+    border: none;
+    font-weight: bold;
+}
+
+.ui-state-default {
+    border: inherit;
+    background-color: white;
+}
+
+ui-datepicker td {
+    border: 1px solid;
+    padding: 1px;
+}
+
+.ui-datepicker table td a.ui-state-default,
+.ui-datepicker table td span.ui-state-default {
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    padding: 0.6em;
+    background-color: white;
+    color: black;
+}
+
+.ui-datepicker table td a.ui-state-active {
+    background-color: #007fff;
+    color: white;
+}
+
+/*.ui-datepicker table td a.ui-state-highlight{
+    background-color:#007fff;
+    color:white;
+}*/
+
+.casualLeave,
+.ui-datepicker table td.casualLeave span {
+    background-color: #e5383b;
+    color: black;
+}
+
+.sickLeave,
+.ui-datepicker table td.sickLeave span {
+    background-color: #ffcad4;
+    color: black;
+}
+
+.earnedLeave,
+.ui-datepicker table td.earnedLeave span {
+    background-color: hotpink;
+    color: black;
+}
+
+.holidays,
+.ui-datepicker table td.holidays span {
+    background-color: #8d99ae;
+    color: black;
+}
